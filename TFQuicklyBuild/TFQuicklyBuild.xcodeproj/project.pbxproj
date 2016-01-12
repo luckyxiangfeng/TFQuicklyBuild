@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7151FB71C44D490003DF94A /* TFTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F7151FB61C44D490003DF94A /* TFTabBarItem.m */; };
+		F7151FBB1C44D7C2003DF94A /* TFValueParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F7151FBA1C44D7C2003DF94A /* TFValueParser.m */; };
+		F787E37C1C439A0800332059 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F787E37B1C439A0800332059 /* main.m */; };
+		F787E37F1C439A0800332059 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F787E37E1C439A0800332059 /* AppDelegate.m */; };
+		F787E3871C439A0800332059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F787E3861C439A0800332059 /* Assets.xcassets */; };
+		F787E38A1C439A0800332059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F787E3881C439A0800332059 /* LaunchScreen.storyboard */; };
+		F787E3951C439A0800332059 /* TFQuicklyBuildTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F787E3941C439A0800332059 /* TFQuicklyBuildTests.m */; };
+		F787E3A01C439A0800332059 /* TFQuicklyBuildUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F787E39F1C439A0800332059 /* TFQuicklyBuildUITests.m */; };
+		F787E3B31C439BED00332059 /* TFConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F787E3B21C439BED00332059 /* TFConfig.m */; };
+		F787E3B51C439C2900332059 /* TFPropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = F787E3B41C439C2900332059 /* TFPropertyList.plist */; };
+		F787E3B91C43A02A00332059 /* TFMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = F787E3B81C43A02A00332059 /* TFMapper.m */; };
+		F787E3BC1C43A6EB00332059 /* TFTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F787E3BB1C43A6EB00332059 /* TFTabViewController.m */; };
+		F787E3C51C43AB3C00332059 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F787E3C31C43AB3C00332059 /* OneViewController.m */; };
+		F787E3C61C43AB3C00332059 /* OneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F787E3C41C43AB3C00332059 /* OneViewController.xib */; };
+		F787E3CA1C43AB4F00332059 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F787E3C81C43AB4F00332059 /* TwoViewController.m */; };
+		F787E3CB1C43AB4F00332059 /* TwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F787E3C91C43AB4F00332059 /* TwoViewController.xib */; };
+		F787E3CF1C43AB5F00332059 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F787E3CD1C43AB5F00332059 /* ThreeViewController.m */; };
+		F787E3D01C43AB5F00332059 /* ThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F787E3CE1C43AB5F00332059 /* ThreeViewController.xib */; };
+		F787E3D41C43AB6C00332059 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F787E3D21C43AB6C00332059 /* FourViewController.m */; };
+		F787E3D51C43AB6C00332059 /* FourViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F787E3D31C43AB6C00332059 /* FourViewController.xib */; };
+		F787E3D91C43AB7B00332059 /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F787E3D71C43AB7B00332059 /* FiveViewController.m */; };
+		F787E3DA1C43AB7B00332059 /* FiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F787E3D81C43AB7B00332059 /* FiveViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F787E3911C439A0800332059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F787E36F1C439A0800332059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F787E3761C439A0800332059;
+			remoteInfo = TFQuicklyBuild;
+		};
+		F787E39C1C439A0800332059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F787E36F1C439A0800332059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F787E3761C439A0800332059;
+			remoteInfo = TFQuicklyBuild;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7151FB51C44D490003DF94A /* TFTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTabBarItem.h; sourceTree = "<group>"; };
+		F7151FB61C44D490003DF94A /* TFTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTabBarItem.m; sourceTree = "<group>"; };
+		F7151FB91C44D7C2003DF94A /* TFValueParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFValueParser.h; sourceTree = "<group>"; };
+		F7151FBA1C44D7C2003DF94A /* TFValueParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFValueParser.m; sourceTree = "<group>"; };
+		F787E3771C439A0800332059 /* TFQuicklyBuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFQuicklyBuild.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F787E37B1C439A0800332059 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F787E37D1C439A0800332059 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F787E37E1C439A0800332059 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F787E3861C439A0800332059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F787E3891C439A0800332059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F787E38B1C439A0800332059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F787E3901C439A0800332059 /* TFQuicklyBuildTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFQuicklyBuildTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F787E3941C439A0800332059 /* TFQuicklyBuildTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFQuicklyBuildTests.m; sourceTree = "<group>"; };
+		F787E3961C439A0800332059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F787E39B1C439A0800332059 /* TFQuicklyBuildUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFQuicklyBuildUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F787E39F1C439A0800332059 /* TFQuicklyBuildUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFQuicklyBuildUITests.m; sourceTree = "<group>"; };
+		F787E3A11C439A0800332059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F787E3B11C439BED00332059 /* TFConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFConfig.h; sourceTree = "<group>"; };
+		F787E3B21C439BED00332059 /* TFConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFConfig.m; sourceTree = "<group>"; };
+		F787E3B41C439C2900332059 /* TFPropertyList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TFPropertyList.plist; sourceTree = "<group>"; };
+		F787E3B71C43A02A00332059 /* TFMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFMapper.h; sourceTree = "<group>"; };
+		F787E3B81C43A02A00332059 /* TFMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFMapper.m; sourceTree = "<group>"; };
+		F787E3BA1C43A6EB00332059 /* TFTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTabViewController.h; sourceTree = "<group>"; };
+		F787E3BB1C43A6EB00332059 /* TFTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTabViewController.m; sourceTree = "<group>"; };
+		F787E3C21C43AB3C00332059 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		F787E3C31C43AB3C00332059 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		F787E3C41C43AB3C00332059 /* OneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneViewController.xib; sourceTree = "<group>"; };
+		F787E3C71C43AB4F00332059 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		F787E3C81C43AB4F00332059 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		F787E3C91C43AB4F00332059 /* TwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoViewController.xib; sourceTree = "<group>"; };
+		F787E3CC1C43AB5F00332059 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		F787E3CD1C43AB5F00332059 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		F787E3CE1C43AB5F00332059 /* ThreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeViewController.xib; sourceTree = "<group>"; };
+		F787E3D11C43AB6C00332059 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		F787E3D21C43AB6C00332059 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		F787E3D31C43AB6C00332059 /* FourViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourViewController.xib; sourceTree = "<group>"; };
+		F787E3D61C43AB7B00332059 /* FiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
+		F787E3D71C43AB7B00332059 /* FiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
+		F787E3D81C43AB7B00332059 /* FiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FiveViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F787E3741C439A0800332059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F787E38D1C439A0800332059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F787E3981C439A0800332059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F787E36E1C439A0800332059 = {
+			isa = PBXGroup;
+			children = (
+				F787E3791C439A0800332059 /* TFQuicklyBuild */,
+				F787E3931C439A0800332059 /* TFQuicklyBuildTests */,
+				F787E39E1C439A0800332059 /* TFQuicklyBuildUITests */,
+				F787E3781C439A0800332059 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F787E3781C439A0800332059 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F787E3771C439A0800332059 /* TFQuicklyBuild.app */,
+				F787E3901C439A0800332059 /* TFQuicklyBuildTests.xctest */,
+				F787E39B1C439A0800332059 /* TFQuicklyBuildUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F787E3791C439A0800332059 /* TFQuicklyBuild */ = {
+			isa = PBXGroup;
+			children = (
+				F787E3AD1C439B6500332059 /* TFFramework */,
+				F787E37D1C439A0800332059 /* AppDelegate.h */,
+				F787E37E1C439A0800332059 /* AppDelegate.m */,
+				F787E3861C439A0800332059 /* Assets.xcassets */,
+				F787E3881C439A0800332059 /* LaunchScreen.storyboard */,
+				F787E38B1C439A0800332059 /* Info.plist */,
+				F787E37A1C439A0800332059 /* Supporting Files */,
+				F787E3B41C439C2900332059 /* TFPropertyList.plist */,
+				F787E3C21C43AB3C00332059 /* OneViewController.h */,
+				F787E3C31C43AB3C00332059 /* OneViewController.m */,
+				F787E3C41C43AB3C00332059 /* OneViewController.xib */,
+				F787E3C71C43AB4F00332059 /* TwoViewController.h */,
+				F787E3C81C43AB4F00332059 /* TwoViewController.m */,
+				F787E3C91C43AB4F00332059 /* TwoViewController.xib */,
+				F787E3CC1C43AB5F00332059 /* ThreeViewController.h */,
+				F787E3CD1C43AB5F00332059 /* ThreeViewController.m */,
+				F787E3CE1C43AB5F00332059 /* ThreeViewController.xib */,
+				F787E3D11C43AB6C00332059 /* FourViewController.h */,
+				F787E3D21C43AB6C00332059 /* FourViewController.m */,
+				F787E3D31C43AB6C00332059 /* FourViewController.xib */,
+				F787E3D61C43AB7B00332059 /* FiveViewController.h */,
+				F787E3D71C43AB7B00332059 /* FiveViewController.m */,
+				F787E3D81C43AB7B00332059 /* FiveViewController.xib */,
+			);
+			path = TFQuicklyBuild;
+			sourceTree = "<group>";
+		};
+		F787E37A1C439A0800332059 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F787E37B1C439A0800332059 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F787E3931C439A0800332059 /* TFQuicklyBuildTests */ = {
+			isa = PBXGroup;
+			children = (
+				F787E3941C439A0800332059 /* TFQuicklyBuildTests.m */,
+				F787E3961C439A0800332059 /* Info.plist */,
+			);
+			path = TFQuicklyBuildTests;
+			sourceTree = "<group>";
+		};
+		F787E39E1C439A0800332059 /* TFQuicklyBuildUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F787E39F1C439A0800332059 /* TFQuicklyBuildUITests.m */,
+				F787E3A11C439A0800332059 /* Info.plist */,
+			);
+			path = TFQuicklyBuildUITests;
+			sourceTree = "<group>";
+		};
+		F787E3AD1C439B6500332059 /* TFFramework */ = {
+			isa = PBXGroup;
+			children = (
+				F787E3B11C439BED00332059 /* TFConfig.h */,
+				F787E3B21C439BED00332059 /* TFConfig.m */,
+				F787E3B71C43A02A00332059 /* TFMapper.h */,
+				F787E3B81C43A02A00332059 /* TFMapper.m */,
+				F787E3BA1C43A6EB00332059 /* TFTabViewController.h */,
+				F787E3BB1C43A6EB00332059 /* TFTabViewController.m */,
+				F7151FB51C44D490003DF94A /* TFTabBarItem.h */,
+				F7151FB61C44D490003DF94A /* TFTabBarItem.m */,
+				F7151FB91C44D7C2003DF94A /* TFValueParser.h */,
+				F7151FBA1C44D7C2003DF94A /* TFValueParser.m */,
+			);
+			path = TFFramework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F787E3761C439A0800332059 /* TFQuicklyBuild */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F787E3A41C439A0800332059 /* Build configuration list for PBXNativeTarget "TFQuicklyBuild" */;
+			buildPhases = (
+				F787E3731C439A0800332059 /* Sources */,
+				F787E3741C439A0800332059 /* Frameworks */,
+				F787E3751C439A0800332059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFQuicklyBuild;
+			productName = TFQuicklyBuild;
+			productReference = F787E3771C439A0800332059 /* TFQuicklyBuild.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F787E38F1C439A0800332059 /* TFQuicklyBuildTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F787E3A71C439A0800332059 /* Build configuration list for PBXNativeTarget "TFQuicklyBuildTests" */;
+			buildPhases = (
+				F787E38C1C439A0800332059 /* Sources */,
+				F787E38D1C439A0800332059 /* Frameworks */,
+				F787E38E1C439A0800332059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F787E3921C439A0800332059 /* PBXTargetDependency */,
+			);
+			name = TFQuicklyBuildTests;
+			productName = TFQuicklyBuildTests;
+			productReference = F787E3901C439A0800332059 /* TFQuicklyBuildTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F787E39A1C439A0800332059 /* TFQuicklyBuildUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F787E3AA1C439A0800332059 /* Build configuration list for PBXNativeTarget "TFQuicklyBuildUITests" */;
+			buildPhases = (
+				F787E3971C439A0800332059 /* Sources */,
+				F787E3981C439A0800332059 /* Frameworks */,
+				F787E3991C439A0800332059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F787E39D1C439A0800332059 /* PBXTargetDependency */,
+			);
+			name = TFQuicklyBuildUITests;
+			productName = TFQuicklyBuildUITests;
+			productReference = F787E39B1C439A0800332059 /* TFQuicklyBuildUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F787E36F1C439A0800332059 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zengxiangfeng;
+				TargetAttributes = {
+					F787E3761C439A0800332059 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F787E38F1C439A0800332059 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F787E3761C439A0800332059;
+					};
+					F787E39A1C439A0800332059 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F787E3761C439A0800332059;
+					};
+				};
+			};
+			buildConfigurationList = F787E3721C439A0800332059 /* Build configuration list for PBXProject "TFQuicklyBuild" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F787E36E1C439A0800332059;
+			productRefGroup = F787E3781C439A0800332059 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F787E3761C439A0800332059 /* TFQuicklyBuild */,
+				F787E38F1C439A0800332059 /* TFQuicklyBuildTests */,
+				F787E39A1C439A0800332059 /* TFQuicklyBuildUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F787E3751C439A0800332059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F787E38A1C439A0800332059 /* LaunchScreen.storyboard in Resources */,
+				F787E3D01C43AB5F00332059 /* ThreeViewController.xib in Resources */,
+				F787E3D51C43AB6C00332059 /* FourViewController.xib in Resources */,
+				F787E3B51C439C2900332059 /* TFPropertyList.plist in Resources */,
+				F787E3871C439A0800332059 /* Assets.xcassets in Resources */,
+				F787E3CB1C43AB4F00332059 /* TwoViewController.xib in Resources */,
+				F787E3DA1C43AB7B00332059 /* FiveViewController.xib in Resources */,
+				F787E3C61C43AB3C00332059 /* OneViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F787E38E1C439A0800332059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F787E3991C439A0800332059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F787E3731C439A0800332059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F787E3B91C43A02A00332059 /* TFMapper.m in Sources */,
+				F787E3D41C43AB6C00332059 /* FourViewController.m in Sources */,
+				F787E3BC1C43A6EB00332059 /* TFTabViewController.m in Sources */,
+				F787E3B31C439BED00332059 /* TFConfig.m in Sources */,
+				F787E37F1C439A0800332059 /* AppDelegate.m in Sources */,
+				F7151FBB1C44D7C2003DF94A /* TFValueParser.m in Sources */,
+				F787E3C51C43AB3C00332059 /* OneViewController.m in Sources */,
+				F787E3CF1C43AB5F00332059 /* ThreeViewController.m in Sources */,
+				F787E3D91C43AB7B00332059 /* FiveViewController.m in Sources */,
+				F787E37C1C439A0800332059 /* main.m in Sources */,
+				F7151FB71C44D490003DF94A /* TFTabBarItem.m in Sources */,
+				F787E3CA1C43AB4F00332059 /* TwoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F787E38C1C439A0800332059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F787E3951C439A0800332059 /* TFQuicklyBuildTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F787E3971C439A0800332059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F787E3A01C439A0800332059 /* TFQuicklyBuildUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F787E3921C439A0800332059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F787E3761C439A0800332059 /* TFQuicklyBuild */;
+			targetProxy = F787E3911C439A0800332059 /* PBXContainerItemProxy */;
+		};
+		F787E39D1C439A0800332059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F787E3761C439A0800332059 /* TFQuicklyBuild */;
+			targetProxy = F787E39C1C439A0800332059 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F787E3881C439A0800332059 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F787E3891C439A0800332059 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F787E3A21C439A0800332059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F787E3A31C439A0800332059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F787E3A51C439A0800332059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TFQuicklyBuild/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiangfeng.TFQuicklyBuild;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F787E3A61C439A0800332059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TFQuicklyBuild/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiangfeng.TFQuicklyBuild;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F787E3A81C439A0800332059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TFQuicklyBuildTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiangfeng.TFQuicklyBuildTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFQuicklyBuild.app/TFQuicklyBuild";
+			};
+			name = Debug;
+		};
+		F787E3A91C439A0800332059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TFQuicklyBuildTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiangfeng.TFQuicklyBuildTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFQuicklyBuild.app/TFQuicklyBuild";
+			};
+			name = Release;
+		};
+		F787E3AB1C439A0800332059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TFQuicklyBuildUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiangfeng.TFQuicklyBuildUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TFQuicklyBuild;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F787E3AC1C439A0800332059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TFQuicklyBuildUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiangfeng.TFQuicklyBuildUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TFQuicklyBuild;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F787E3721C439A0800332059 /* Build configuration list for PBXProject "TFQuicklyBuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F787E3A21C439A0800332059 /* Debug */,
+				F787E3A31C439A0800332059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F787E3A41C439A0800332059 /* Build configuration list for PBXNativeTarget "TFQuicklyBuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F787E3A51C439A0800332059 /* Debug */,
+				F787E3A61C439A0800332059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F787E3A71C439A0800332059 /* Build configuration list for PBXNativeTarget "TFQuicklyBuildTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F787E3A81C439A0800332059 /* Debug */,
+				F787E3A91C439A0800332059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F787E3AA1C439A0800332059 /* Build configuration list for PBXNativeTarget "TFQuicklyBuildUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F787E3AB1C439A0800332059 /* Debug */,
+				F787E3AC1C439A0800332059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F787E36F1C439A0800332059 /* Project object */;
+}
